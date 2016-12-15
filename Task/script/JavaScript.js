@@ -96,7 +96,7 @@ function findCrossElements(arr) {
 
 function format(el1, el2) {
    
-    return el1.name + ' перетинає ' + el2.name;
+    return '"' + el1.name + '"' + ' перетинає '+ '"'  + el2.name+ '"' ;
 }
 
 function isLineCrossed(l1, l2) {
